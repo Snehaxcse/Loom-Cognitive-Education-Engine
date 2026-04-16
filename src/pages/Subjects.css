@@ -1,0 +1,46 @@
+.subjects-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.subjects-stats {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  font-size: 0.8rem;
+  color: var(--text2);
+  font-family: monospace;
+}
+
+.subjects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.color-picker {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 4px;
+}
+
+.color-swatch {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: transform 0.15s, border-color 0.15s;
+}
+
+.color-swatch:hover {
+  transform: scale(1.15);
+}
+
+.color-swatch.selected {
+  border-color: var(--text);
+  transform: scale(1.1);
+}

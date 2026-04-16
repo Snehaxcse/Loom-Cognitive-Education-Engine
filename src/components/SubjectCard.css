@@ -1,0 +1,141 @@
+.subject-card {
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: border-color 0.2s;
+}
+
+.subject-card:hover {
+  border-color: var(--accent);
+}
+
+.subject-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subject-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.subject-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.subject-info h3 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.subject-info p {
+  font-size: 0.8rem;
+  color: var(--text2);
+  margin-top: 2px;
+}
+
+.subject-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.topic-count {
+  font-size: 0.78rem;
+  color: var(--text2);
+  font-family: monospace;
+}
+
+.expand-icon {
+  color: var(--text2);
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.icon-btn {
+  padding: 6px !important;
+  font-size: 1rem;
+}
+
+.subject-topics {
+  margin-top: 16px;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+
+.no-topics {
+  font-size: 0.85rem;
+  color: var(--text3);
+  margin-bottom: 10px;
+}
+
+.topic-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.topic-row:last-of-type {
+  border-bottom: none;
+}
+
+.topic-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.topic-name {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.topic-difficulty {
+  font-size: 0.75rem;
+  color: var(--text2);
+}
+
+.topic-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.status-select {
+  width: auto;
+  padding: 4px 8px;
+  font-size: 0.78rem;
+}
+
+.topic-form {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.topic-form input,
+.topic-form select {
+  flex: 1;
+  min-width: 120px;
+}
+
+.topic-form-actions {
+  display: flex;
+  gap: 6px;
+}
+
+.add-topic-btn {
+  margin-top: 10px;
+  font-size: 0.8rem;
+}

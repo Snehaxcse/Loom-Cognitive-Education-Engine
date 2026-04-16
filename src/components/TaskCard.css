@@ -1,0 +1,90 @@
+.task-card {
+  margin-bottom: 8px;
+  padding: 14px 16px;
+  transition: border-color 0.2s;
+}
+
+.task-card.completed {
+  opacity: 0.6;
+}
+
+.task-card.overdue {
+  border-color: rgba(248, 113, 113, 0.4);
+}
+
+.task-main {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.check-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--text2);
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  transition: color 0.2s;
+}
+
+.check-btn:hover {
+  color: var(--accent);
+}
+
+.check-btn .checked {
+  color: var(--green);
+}
+
+.task-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.task-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.task-title.strikethrough {
+  text-decoration: line-through;
+  color: var(--text2);
+}
+
+.task-meta-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+  flex-wrap: wrap;
+}
+
+.task-subject {
+  font-size: 0.75rem;
+  color: var(--text2);
+  background: var(--bg3);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.task-deadline {
+  font-size: 0.75rem;
+  color: var(--text2);
+  font-family: monospace;
+}
+
+.task-deadline.overdue-text {
+  color: var(--red);
+}
+
+.icon-btn {
+  padding: 6px !important;
+  font-size: 1rem;
+  flex-shrink: 0;
+}
