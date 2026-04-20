@@ -2,7 +2,7 @@
 
 React + Vite study dashboard with AI tools (summary, questions, flashcards).
 
-https://loomcognitive.netlify.app/dashboard
+loomcognitive.netlify.app
 
 ## 1) Local setup
 
